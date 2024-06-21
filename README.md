@@ -133,7 +133,7 @@ Extracting for patient ID aaaaafwz from session ID s001_2007_03_26. The combined
 
 ```
 
-Here are some of the details of the directories and sub-directories:
+Here are some of the details regarding the dirctory in which the generated data was stored and its sub-directories:
 ```console
 umohamma@dragon:/disk/raptor-array/SaeedLab-Data/EEG/epilepsy/git_test_v00_mlspredb_script$ du -h
 16M     ./meta_data
