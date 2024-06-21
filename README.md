@@ -21,7 +21,8 @@ System with Ubuntu 16.04 or later with at least 4 CPU cores, 64GBs of memory and
 2. If pip is not installed, you may get an error message or blank output screen. In that case, please run: <br>
 `apt-get install python-pip` <br>\(You may need to preface the command with `sudo` and be on the sudoers list if working on a shared resource.\)
 
-3. Ensure that venv is installed by running:<br>
+3. Run the command `python -m pip install --upgrade pip` to update Pip.
+   Ensure that venv is installed by running:<br>
    `python3 -m venv --help`<br>
    If venv is **_available_**, you may see an output similar to this:<br>
    ```console
@@ -55,24 +56,24 @@ System with Ubuntu 16.04 or later with at least 4 CPU cores, 64GBs of memory and
    ```
    In that case, please skip over to step 5. If venv is **_not available_**, you may see a blank output line or an error message. In that case, please continue to step 4. 
     
-4. Please run the following command:<br> 
+5. Please run the following command:<br> 
    `apt install python3.8-venv` <br>\(Sudo permissions may be required\)
    For more information on pip, venv and virtual environments, see [working with pip and virtual environments](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
    
-5. Create a virtual environment called mlspredbench (you may use a different name) by running the following command:<br>
+6. Create a virtual environment called mlspredbench (you may use a different name) by running the following command:<br>
 `python3 -m venv .mlspredbench`
 
-6. Activate the virtual environment by running:<br>
+7. Activate the virtual environment by running:<br>
    `source .mlspredbench/bin/activate`
 
-7. To download the repository locally, you may do it manually or run the following command:<br>
+8. To download the repository locally, you may do it manually or run the following command:<br>
    ```sh
    git clone https://github.com/pcdslab/MLSPred-Bench.git
    cd MLSPred-Bench
    ```
    For more information, please see [managing repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
    
-8. Install the required packages by running:<br>
+9. Install the required packages by running:<br>
    `python3 -m pip install -r requirements.txt`
 
 You are now ready to run the benchmarking tool MLSPred-Bench.
