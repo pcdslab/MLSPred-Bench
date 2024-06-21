@@ -6,7 +6,7 @@ MLSPred-Bench will create 12 different benchmarks based on different values of t
 For each benchmark, MLSPred-Bench draws preictal segments of length from the $SPH$ duration. We assume there is a gap equal to the $SOP$ in minutes before the start of a seizure where the $SPH$ ends. The datasets are class-balanced where an equal amount of interictal samples are drawn from sessions of the same subject where there were no seizures. For more details, please request a pre-print version of our submitted manuscript. To execute the code, please ensure that your machine  follow the subsequent steps.
 
 # System Requirements
-System with Ubuntu 16.04 or later with at least 4 CPU cores, 64GBs of memory and greater than 150GB of available storage is recommended.
+System with Ubuntu 16.04 or later with at least 4 CPU cores, 64GBs of memory and greater than 150GB of available storage is recommended. Other Python 3.8.0 or higher and its built-in libraries, the code only requires the NumPy, MNE and H5PY libraries. All needed packages ae detailed in the `requirments.txt` file and can be downloaded following the setup instructions below.
 
 # Setup
 1. Check the pip version using the following command:<br>
@@ -60,7 +60,7 @@ System with Ubuntu 16.04 or later with at least 4 CPU cores, 64GBs of memory and
    For more information on pip, venv and virtual environments, see [working with pip and virtual environments](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
    
 6. Create a virtual environment called mlspredbench (you may use a different name) by running the following command:<br>
-`python3 -m venv .mlspredbench`
+`python3.8 -m venv .mlspredbench`
 
 7. Activate the virtual environment by running:<br>
    `source .mlspredbench/bin/activate`
