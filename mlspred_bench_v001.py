@@ -1,6 +1,7 @@
 
 #******************************************************************************#
 #-------------------------- Sec. 1: Import Libraries --------------------------#
+'''
 print("Importing Libraries ...", end = " ")
 #import pandas as pd 
 import numpy as np
@@ -15,9 +16,28 @@ import os
 # from matplotlib.patches import Rectangle
 # from datetime import datetime, timedelta
 # from matplotlib import pyplot as plt
-# from sklearn.utils import shuffle
+from sklearn.utils import shuffle
 print("Done!\n")
-
+'''
+print("Importing Libraries ...", end = " ")
+try:
+    import numpy as np
+    #import pandas as pd
+    import h5py
+    import mne
+    import random
+    import csv
+    import os
+    import time
+    #from scipy.signal import butter, lfilter, freqz
+    #from matplotlib.patches import Rectangle
+    #from datetime import datetime, timedelta
+    from sklearn.preprocessing import scale, minmax_scale
+    #from matplotlib import pyplot as plt
+    from sklearn.utils import shuffle
+    print("Done!\n")
+except Exception as e:
+    print("Failed to import one or more packages!\n")
 #******************************************************************************#
 #----------------------- Sec. 2: Define Needed Functions ----------------------#
 def insertion_sort(arr, arr_name):
