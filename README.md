@@ -21,8 +21,7 @@ System with Ubuntu 16.04 or later with at least 4 CPU cores, 64GBs of memory and
 2. If pip is not installed, you may get an error message or blank output screen. In that case, please run: <br>
 `apt-get install python-pip` <br>\(You may need to preface the command with `sudo` and be on the sudoers list if working on a shared resource.\)
 
-3. Run the command `python -m pip install --upgrade pip` to update Pip.
-   Ensure that venv is installed by running:<br>
+3. Ensure that venv is installed by running:<br>
    `python3 -m venv --help`<br>
    If venv is **_available_**, you may see an output similar to this:<br>
    ```console
@@ -66,14 +65,16 @@ System with Ubuntu 16.04 or later with at least 4 CPU cores, 64GBs of memory and
 7. Activate the virtual environment by running:<br>
    `source .mlspredbench/bin/activate`
 
-8. To download the repository locally, you may do it manually or run the following command:<br>
+8. Run the command `python -m pip install --upgrade pip` to update Pip.
+
+9. To download the repository locally, you may do it manually or run the following command:<br>
    ```sh
    git clone https://github.com/pcdslab/MLSPred-Bench.git
    cd MLSPred-Bench
    ```
    For more information, please see [managing repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
    
-9. Install the required packages by running:<br>
+10. Install the required packages by running:<br>
    `python3 -m pip install -r requirements.txt`
 
 You are now ready to run the benchmarking tool MLSPred-Bench.
