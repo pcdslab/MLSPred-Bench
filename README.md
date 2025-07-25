@@ -7,6 +7,9 @@ For each benchmark, MLSPred-Bench draws preictal segments of length from the $SP
 
 If you need already pre-processed data send an email at fsaeed@fiu.edu
 
+If you use this dataset we will appreciate if you could cite our work listed below:
+Mohammad, Umair, and Fahad Saeed. "MLSPred-Bench: ML-Ready Benchmark Leveraging Seizure Detection EEG data for Predictive Models." bioRxiv 2024.07.17.604006; doi:  https://doi.org/10.1101/2024.07.17.604006
+
 # System Requirements
 System with Ubuntu 16.04 or later with at least 4 CPU cores, 64GBs of memory and greater than 150GB of available storage is recommended. Other Python 3.8.0 or higher and its built-in libraries, the code only requires the NumPy, MNE and H5PY libraries. All needed packages ae detailed in the `requirments.txt` file and can be downloaded following the setup instructions below.
 
