@@ -5,7 +5,7 @@ MLSPred-Bench will create 12 different benchmarks based on different values of t
 
 For each benchmark, MLSPred-Bench draws preictal segments of length from the $SPH$ duration. We assume there is a gap equal to the $SOP$ in minutes before the start of a seizure where the $SPH$ ends. The datasets are class-balanced where an equal amount of interictal samples are drawn from sessions of the same subject where there were no seizures. For more details, please request a pre-print version of our submitted manuscript. To execute the code, please ensure that your machine  follow the subsequent steps.
 
-**If you need already pre-processed data send an email at fsaeed@fiu.edu**
+**To request pre-processed data, please email Dr. Fahad Saeed at fsaeed@fiu.edu.**
 
 If you use this dataset we will appreciate if you could cite our work listed below: 
 
