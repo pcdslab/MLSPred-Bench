@@ -7,7 +7,7 @@ For each benchmark, MLSPred-Bench draws preictal segments of length from the $SP
 
 **To request pre-processed data, please email [Dr. Fahad Saeed](https://prof-s.github.io/) at fsaeed@fiu.edu.**
 
-If you use this dataset we will appreciate if you could cite our work listed below: 
+If you use this dataset, please cite our work listed below: 
 
 Mohammad, Umair, and Fahad Saeed. "MLSPred-Bench: ML-Ready Benchmark Leveraging Seizure Detection EEG data for Predictive Models." bioRxiv 2024.07.17.604006; doi:  https://doi.org/10.1101/2024.07.17.604006
 
